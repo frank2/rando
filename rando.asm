@@ -35,7 +35,7 @@
    %macro rando_coin_flip 0
    
    rando_lfsr_next 64
-   %assign rando_lfsr_result rando_lfsr_result + 32
+   %assign rando_lfsr_result rando_lfsr_result + 16
 
    %rep rando_lfsr_result
       rando_lfsr_next(2)
