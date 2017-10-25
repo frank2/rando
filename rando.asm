@@ -2,6 +2,7 @@
 
    %assign rando_lfsr_seed __POSIX_TIME__
    %assign rando_lfsr_poly 15564440312192434176
+   ;; %assign rando_lfsr_poly 2734686208 ; for 32-bit systems
    
    %macro rando_lfsr 0
 	
